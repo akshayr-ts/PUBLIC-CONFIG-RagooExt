@@ -1,7 +1,7 @@
 {
 	"pipeline": {
 		"version": "2.2.3",
-		"lastUpdated": "2025-01-28",
+		"lastUpdated": "2025-01-30",
 		"description": "Zoho Recruit Pipeline Configuration for Ragoo! Extension - Updated to match actual pipeline",
 		"stages": [
 			{
