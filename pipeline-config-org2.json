@@ -1,0 +1,99 @@
+{
+	"pipeline": {
+		"version": "1.0.0",
+		"lastUpdated": "2025-01-30",
+		"description": "Zoho Recruit Pipeline Configuration for Organization 2 (org20103859259) - EU Domain",
+		"stages": [
+			{
+				"label": "Associated",
+				"short": "ASC",
+				"value": "Associated",
+				"background": "#1e3a8a",
+				"badgeClass": "darkblue"
+			},
+			{
+				"label": "Applied",
+				"short": "APL",
+				"value": "Applied",
+				"background": "#1e3a8a",
+				"badgeClass": "darkblue"
+			},
+			{
+				"label": "Qualified",
+				"short": "QLF",
+				"value": "Qualified",
+				"background": "#0891b2",
+				"badgeClass": "topaz-blue"
+			},
+			{
+				"label": "Submitted to client",
+				"short": "STC",
+				"value": "Submitted to client",
+				"background": "#7c3aed",
+				"badgeClass": "violet"
+			},
+			{
+				"label": "Interview-Scheduled",
+				"short": "IS",
+				"value": "Interview-Scheduled",
+				"background": "#d97706",
+				"badgeClass": "chocolate"
+			},
+			{
+				"label": "Offer made",
+				"short": "OM",
+				"value": "Offer made",
+				"background": "#f59e0b",
+				"badgeClass": "yellow"
+			},
+			{
+				"label": "Hired",
+				"short": "HRD",
+				"value": "Hired",
+				"background": "#1a936a",
+				"badgeClass": "lightgreen"
+			},
+			{
+				"label": "Unqualified",
+				"short": "UQL",
+				"value": "Unqualified",
+				"background": "#ed0707",
+				"badgeClass": "red"
+			},
+			{
+				"label": "Rejected by client",
+				"short": "RJC",
+				"value": "Rejected by client",
+				"background": "#ed0707",
+				"badgeClass": "red"
+			},
+			{
+				"label": "Rejected for interview",
+				"short": "RJI",
+				"value": "Rejected for interview",
+				"background": "#ed0707",
+				"badgeClass": "red"
+			},
+			{
+				"label": "Rejected",
+				"short": "RJD",
+				"value": "Rejected",
+				"background": "#ed0707",
+				"badgeClass": "red"
+			},
+			{
+				"label": "Archived",
+				"short": "ARC",
+				"value": "Archived",
+				"background": "#6b7280",
+				"badgeClass": "cadet"
+			}
+		]
+	},
+	"settings": {
+		"githubUrl": "https://raw.githubusercontent.com/akshayr-ts/PUBLIC-CONFIG-RagooExt/refs/heads/main/pipeline-config-org2.json",
+		"fallbackEnabled": true,
+		"autoUpdate": true,
+		"cacheExpiry": 0
+	}
+}
