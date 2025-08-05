@@ -2,7 +2,7 @@
 	"pipeline": {
 		"version": "1.0.0",
 		"lastUpdated": "2025-01-30",
-		"description": "Zoho Recruit Pipeline Configuration for Organization 2 (org20103859259) - EU Domain",
+		"description": "FlexSupport Pipeline - Zoho Recruit Pipeline Configuration for FlexSupport (org20103859259) - EU Domain",
 		"stages": [
 			{
 				"label": "Associated",

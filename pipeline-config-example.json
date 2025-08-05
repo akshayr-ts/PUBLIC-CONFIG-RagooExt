@@ -1,20 +1,13 @@
 {
 	"pipeline": {
-		"version": "2.2.1",
+		"version": "1.0.0",
 		"lastUpdated": "2025-01-25",
-		"description": "Talent-Shore Pipeline - Zoho Recruit Pipeline Configuration for Ragoo! Extension - Updated to match actual pipeline",
+		"description": "Zoho Recruit Pipeline Configuration for Ragoo! Extension",
 		"stages": [
 			{
 				"label": "Applied",
 				"short": "APL",
 				"value": "Applied",
-				"background": "#a54444",
-				"badgeClass": "apple-blossom"
-			},
-			{
-				"label": "AI Applications",
-				"short": "AIA",
-				"value": "AI Applications",
 				"background": "#a54444",
 				"badgeClass": "apple-blossom"
 			},
@@ -36,13 +29,6 @@
 				"label": "ShortList",
 				"short": "SL",
 				"value": "ShortList",
-				"background": "#d0a72b",
-				"badgeClass": "sheen-gold"
-			},
-			{
-				"label": "Call not answered",
-				"short": "CNA",
-				"value": "Call not answered",
 				"background": "#d0a72b",
 				"badgeClass": "sheen-gold"
 			},
@@ -75,20 +61,6 @@
 				"badgeClass": "darkgreen"
 			},
 			{
-				"label": "Interview",
-				"short": "INT",
-				"value": "Interview",
-				"background": "#CCD118",
-				"badgeClass": "birdflower-green"
-			},
-			{
-				"label": "Offered",
-				"short": "OFF",
-				"value": "Offered",
-				"background": "#f59e0b",
-				"badgeClass": "yellow"
-			},
-			{
 				"label": "Hired",
 				"short": "HRD",
 				"value": "Hired",
@@ -119,9 +91,26 @@
 		]
 	},
 	"settings": {
-		"githubUrl": "https://raw.githubusercontent.com/akshayr-ts/PUBLIC-CONFIG-RagooExt/refs/heads/main/pipeline-config.json",
+		"githubUrl": "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/pipeline-config.json",
 		"fallbackEnabled": true,
 		"autoUpdate": true,
-		"cacheExpiry": 0
+		"cacheExpiry": 3600000
+	},
+	"_comments": {
+		"label": "Display name shown in dropdown",
+		"short": "Abbreviated version (3-4 chars recommended)",
+		"value": "EXACT status value from Zoho (must match exactly!)",
+		"background": "Hex color code for status background",
+		"badgeClass": "CSS class for styling (optional)",
+		"availableBadgeClasses": [
+			"apple-blossom (#a54444)",
+			"sheen-gold (#d0a72b)",
+			"darkgreen (#00868c)",
+			"darkblue (#1e3a8a)",
+			"lightgreen (#1a936a)",
+			"red (#ed0707)",
+			"yellow (#f59e0b)",
+			"cadet (#6b7280)"
+		]
 	}
 }

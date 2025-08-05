@@ -1,0 +1,141 @@
+{
+	"pipeline": {
+		"version": "1.0.0",
+		"lastUpdated": "2025-01-30",
+		"description": "TeachNow Pipeline - Zoho Recruit Pipeline Configuration for TeachNow (org20094154729) - EU Domain",
+		"stages": [
+			{
+				"label": "Applied",
+				"short": "APL",
+				"value": "Applied",
+				"background": "#ff7f50",
+				"badgeClass": "coral"
+			},
+			{
+				"label": "AI Applications",
+				"short": "AIA",
+				"value": "AI Applications",
+				"background": "#ff7f50",
+				"badgeClass": "coral"
+			},
+			{
+				"label": "Shortlisted",
+				"short": "SHT",
+				"value": "Shortlisted",
+				"background": "#f59e0b",
+				"badgeClass": "yellow"
+			},
+			{
+				"label": "Call not answered",
+				"short": "CNA",
+				"value": "Call not answered",
+				"background": "#f59e0b",
+				"badgeClass": "yellow"
+			},
+			{
+				"label": "Booked",
+				"short": "BKD",
+				"value": "Booked",
+				"background": "#1e3a8a",
+				"badgeClass": "darkblue"
+			},
+			{
+				"label": "Waiting for Placement Manager",
+				"short": "WPM",
+				"value": "Waiting for Placement Manager",
+				"background": "#d97706",
+				"badgeClass": "chocolate"
+			},
+			{
+				"label": "Approved",
+				"short": "APV",
+				"value": "Approved",
+				"background": "#1a936a",
+				"badgeClass": "lightgreen"
+			},
+			{
+				"label": "Offer planned",
+				"short": "OPL",
+				"value": "Offer planned",
+				"background": "#f59e0b",
+				"badgeClass": "yellow"
+			},
+			{
+				"label": "Offer made",
+				"short": "OM",
+				"value": "Offer made",
+				"background": "#f59e0b",
+				"badgeClass": "yellow"
+			},
+			{
+				"label": "Offer accepted",
+				"short": "OAC",
+				"value": "Offer accepted",
+				"background": "#f59e0b",
+				"badgeClass": "yellow"
+			},
+			{
+				"label": "Offer declined",
+				"short": "ODC",
+				"value": "Offer declined",
+				"background": "#f59e0b",
+				"badgeClass": "yellow"
+			},
+			{
+				"label": "Offer withdrawn",
+				"short": "OWD",
+				"value": "Offer withdrawn",
+				"background": "#f59e0b",
+				"badgeClass": "yellow"
+			},
+			{
+				"label": "Hired",
+				"short": "HRD",
+				"value": "Hired",
+				"background": "#1a936a",
+				"badgeClass": "lightgreen"
+			},
+			{
+				"label": "Rejected",
+				"short": "RJD",
+				"value": "Rejected",
+				"background": "#ed0707",
+				"badgeClass": "red"
+			},
+			{
+				"label": "Rejected by Candidate",
+				"short": "RJC",
+				"value": "Rejected by Candidate",
+				"background": "#ed0707",
+				"badgeClass": "red"
+			},
+			{
+				"label": "Rejected by School",
+				"short": "RJS",
+				"value": "Rejected by School",
+				"background": "#ed0707",
+				"badgeClass": "red"
+			},
+			{
+				"label": "Rejected by Placement Manager",
+				"short": "RJP",
+				"value": "Rejected by Placement Manager",
+				"background": "#ed0707",
+				"badgeClass": "red"
+			},
+			{
+				"label": "Archived",
+				"short": "ARC",
+				"value": "Archived",
+				"background": "#6b7280",
+				"badgeClass": "cadet"
+			}
+		]
+	},
+	"settings": {
+		"githubUrl": "https://raw.githubusercontent.com/akshayr-ts/PUBLIC-CONFIG-RagooExt/refs/heads/main/pipeline-config-org3.json",
+		"fallbackEnabled": true,
+		"autoUpdate": true,
+		"cacheExpiry": 0
+	}
+}
