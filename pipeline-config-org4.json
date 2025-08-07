@@ -1,0 +1,44 @@
+{
+	"stages": {
+		"Applied": {
+			"color": "apple-blossom",
+			"statuses": ["Applied", "AI Applications", "AI Database", "AI LinkedIn"]
+		},
+		"Shortlisted": {
+			"color": "sheen-gold",
+			"statuses": ["Shortlisted", "Call Not Answered"]
+		},
+		"Booked": {
+			"color": "birdflower-green",
+			"statuses": ["Booked"]
+		},
+		"Submitted to Client": {
+			"color": "darkgreen",
+			"statuses": ["Submitted to client"]
+		},
+		"Chase Video": {
+			"color": "pink",
+			"statuses": ["Chase Video"]
+		},
+		"Interview": {
+			"color": "topaz-blue",
+			"statuses": ["Interview-Scheduled"]
+		},
+		"Offered": {
+			"color": "yellow",
+			"statuses": ["Offered"]
+		},
+		"Hired": {
+			"color": "lightgreen",
+			"statuses": ["Hired"]
+		},
+		"Rejected": {
+			"color": "red",
+			"statuses": ["Rejected", "Rejected by client"]
+		},
+		"Archived": {
+			"color": "cadet",
+			"statuses": ["Archived"]
+		}
+	}
+}
