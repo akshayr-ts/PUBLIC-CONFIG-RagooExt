@@ -1,16 +1,9 @@
 {
 	"pipeline": {
 		"version": "1.0.0",
-		"lastUpdated": "2025-01-30",
+		"lastUpdated": "2025-09-03",
 		"description": "FlexSupport Pipeline - Zoho Recruit Pipeline Configuration for FlexSupport (org20103859259) - EU Domain",
 		"stages": [
-			{
-				"label": "Associated",
-				"short": "ASC",
-				"value": "Associated",
-				"background": "#1e3a8a",
-				"badgeClass": "darkblue"
-			},
 			{
 				"label": "Applied",
 				"short": "APL",
@@ -19,11 +12,46 @@
 				"badgeClass": "darkblue"
 			},
 			{
-				"label": "Qualified",
-				"short": "QLF",
-				"value": "Qualified",
+				"label": "AI Applications",
+				"short": "AIA",
+				"value": "AI Applications",
+				"background": "#1e3a8a",
+				"badgeClass": "darkblue"
+			},
+			{
+				"label": "Proactively Sourced",
+				"short": "PSO",
+				"value": "Proactively Sourced",
+				"background": "#1e3a8a",
+				"badgeClass": "darkblue"
+			},
+			{
+				"label": "Approved",
+				"short": "APV",
+				"value": "Approved",
 				"background": "#0891b2",
 				"badgeClass": "topaz-blue"
+			},
+			{
+				"label": "Call not Answered",
+				"short": "CNA",
+				"value": "Call not Answered",
+				"background": "#0891b2",
+				"badgeClass": "topaz-blue"
+			},
+			{
+				"label": "Booked",
+				"short": "BKD",
+				"value": "Booked",
+				"background": "#ec4899",
+				"badgeClass": "pink"
+			},
+			{
+				"label": "Chase Video",
+				"short": "CHV",
+				"value": "Chase Video",
+				"background": "#c084fc",
+				"badgeClass": "cavernpink"
 			},
 			{
 				"label": "Submitted to client",
@@ -34,51 +62,44 @@
 			},
 			{
 				"label": "Interview-Scheduled",
-				"short": "IS",
+				"short": "INT",
 				"value": "Interview-Scheduled",
 				"background": "#d97706",
 				"badgeClass": "chocolate"
 			},
 			{
 				"label": "Offer made",
-				"short": "OM",
+				"short": "OFF",
 				"value": "Offer made",
 				"background": "#f59e0b",
 				"badgeClass": "yellow"
 			},
 			{
 				"label": "Hired",
-				"short": "HRD",
+				"short": "HIR",
 				"value": "Hired",
-				"background": "#1a936a",
+				"background": "#22c55e",
 				"badgeClass": "lightgreen"
 			},
 			{
-				"label": "Unqualified",
-				"short": "UQL",
-				"value": "Unqualified",
-				"background": "#ed0707",
+				"label": "Rejected",
+				"short": "REJ",
+				"value": "Rejected",
+				"background": "#ef4444",
+				"badgeClass": "red"
+			},
+			{
+				"label": "No Contact",
+				"short": "NCT",
+				"value": "No Contact",
+				"background": "#ef4444",
 				"badgeClass": "red"
 			},
 			{
 				"label": "Rejected by client",
-				"short": "RJC",
+				"short": "RBC",
 				"value": "Rejected by client",
-				"background": "#ed0707",
-				"badgeClass": "red"
-			},
-			{
-				"label": "Rejected for interview",
-				"short": "RJI",
-				"value": "Rejected for interview",
-				"background": "#ed0707",
-				"badgeClass": "red"
-			},
-			{
-				"label": "Rejected",
-				"short": "RJD",
-				"value": "Rejected",
-				"background": "#ed0707",
+				"background": "#ef4444",
 				"badgeClass": "red"
 			},
 			{

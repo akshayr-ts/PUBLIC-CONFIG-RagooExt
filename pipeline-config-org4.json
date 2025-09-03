@@ -1,7 +1,7 @@
 {
 	"pipeline": {
 		"version": "1.0.0",
-		"lastUpdated": "2025-08-08",
+		"lastUpdated": "2025-09-03",
 		"description": "Remote Choice Pipeline - Zoho Recruit Pipeline Configuration for Remote Choice (org20086425055) - EU Domain",
 		"stages": [
 			{
@@ -110,5 +110,11 @@
 				"badgeClass": "cadet"
 			}
 		]
+	},
+	"settings": {
+		"githubUrl": "https://raw.githubusercontent.com/akshayr-ts/PUBLIC-CONFIG-RagooExt/refs/heads/main/pipeline-config-org4.json",
+		"fallbackEnabled": true,
+		"autoUpdate": true,
+		"cacheExpiry": 0
 	}
 }
