@@ -1,0 +1,124 @@
+{
+	"pipeline": {
+		"version": "1.0.0",
+		"lastUpdated": "2025-09-08",
+		"description": "FlexSupport Pipeline - Zoho Recruit Pipeline Configuration for FlexSupport (org20103859259) - EU Domain",
+		"fieldConfig": {
+			"notesField": "Screening_Info",
+			"description": "Field name used for storing candidate notes in Zoho Recruit API"
+		},
+		"stages": [
+			{
+				"label": "Applied",
+				"short": "APL",
+				"value": "Applied",
+				"background": "#1e3a8a",
+				"badgeClass": "darkblue"
+			},
+			{
+				"label": "AI Applications",
+				"short": "AIA",
+				"value": "AI Applications",
+				"background": "#1e3a8a",
+				"badgeClass": "darkblue"
+			},
+			{
+				"label": "Proactively Sourced",
+				"short": "PSO",
+				"value": "Proactively Sourced",
+				"background": "#1e3a8a",
+				"badgeClass": "darkblue"
+			},
+			{
+				"label": "Approved",
+				"short": "APV",
+				"value": "Approved",
+				"background": "#0891b2",
+				"badgeClass": "topaz-blue"
+			},
+			{
+				"label": "Call not Answered",
+				"short": "CNA",
+				"value": "Call not Answered",
+				"background": "#0891b2",
+				"badgeClass": "topaz-blue"
+			},
+			{
+				"label": "Booked",
+				"short": "BKD",
+				"value": "Booked",
+				"background": "#ec4899",
+				"badgeClass": "pink"
+			},
+			{
+				"label": "Chase Video",
+				"short": "CHV",
+				"value": "Chase Video",
+				"background": "#c084fc",
+				"badgeClass": "cavernpink"
+			},
+			{
+				"label": "Submitted to client",
+				"short": "STC",
+				"value": "Submitted to client",
+				"background": "#7c3aed",
+				"badgeClass": "violet"
+			},
+			{
+				"label": "Interview-Scheduled",
+				"short": "INT",
+				"value": "Interview-Scheduled",
+				"background": "#d97706",
+				"badgeClass": "chocolate"
+			},
+			{
+				"label": "Offer made",
+				"short": "OFF",
+				"value": "Offer made",
+				"background": "#f59e0b",
+				"badgeClass": "yellow"
+			},
+			{
+				"label": "Hired",
+				"short": "HIR",
+				"value": "Hired",
+				"background": "#22c55e",
+				"badgeClass": "lightgreen"
+			},
+			{
+				"label": "Rejected",
+				"short": "REJ",
+				"value": "Rejected",
+				"background": "#ef4444",
+				"badgeClass": "red"
+			},
+			{
+				"label": "No Contact",
+				"short": "NCT",
+				"value": "No Contact",
+				"background": "#ef4444",
+				"badgeClass": "red"
+			},
+			{
+				"label": "Rejected by client",
+				"short": "RBC",
+				"value": "Rejected by client",
+				"background": "#ef4444",
+				"badgeClass": "red"
+			},
+			{
+				"label": "Archived",
+				"short": "ARC",
+				"value": "Archived",
+				"background": "#6b7280",
+				"badgeClass": "cadet"
+			}
+		]
+	},
+	"settings": {
+		"githubUrl": "https://raw.githubusercontent.com/akshayr-ts/PUBLIC-CONFIG-RagooExt/refs/heads/main/v2-pipeline-config-org2.json",
+		"fallbackEnabled": true,
+		"autoUpdate": true,
+		"cacheExpiry": 0
+	}
+}

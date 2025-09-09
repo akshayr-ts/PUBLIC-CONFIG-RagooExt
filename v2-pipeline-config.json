@@ -1,0 +1,127 @@
+{
+	"pipeline": {
+		"version": "2.2.1",
+		"lastUpdated": "2025-01-25",
+		"description": "Talent-Shore Pipeline - Zoho Recruit Pipeline Configuration for Ragoo! Extension - Updated to match actual pipeline",
+		"stages": [
+			{
+				"label": "Applied",
+				"short": "APL",
+				"value": "Applied",
+				"background": "#a54444",
+				"badgeClass": "apple-blossom"
+			},
+			{
+				"label": "AI Applications",
+				"short": "AIA",
+				"value": "AI Applications",
+				"background": "#a54444",
+				"badgeClass": "apple-blossom"
+			},
+			{
+				"label": "AI Database",
+				"short": "AID",
+				"value": "AI Database",
+				"background": "#a54444",
+				"badgeClass": "apple-blossom"
+			},
+			{
+				"label": "AI Linkedin",
+				"short": "AIL",
+				"value": "AI Linkedin",
+				"background": "#a54444",
+				"badgeClass": "apple-blossom"
+			},
+			{
+				"label": "ShortList",
+				"short": "SL",
+				"value": "ShortList",
+				"background": "#d0a72b",
+				"badgeClass": "sheen-gold"
+			},
+			{
+				"label": "Call not answered",
+				"short": "CNA",
+				"value": "Call not answered",
+				"background": "#d0a72b",
+				"badgeClass": "sheen-gold"
+			},
+			{
+				"label": "Booked",
+				"short": "BKD",
+				"value": "Booked",
+				"background": "#1a936a",
+				"badgeClass": "lightgreen"
+			},
+			{
+				"label": "Spoken-to",
+				"short": "ST",
+				"value": "Spoken-to",
+				"background": "#1e3a8a",
+				"badgeClass": "darkblue"
+			},
+			{
+				"label": "Chase VI",
+				"short": "CVI",
+				"value": "Chase VI",
+				"background": "#1e3a8a",
+				"badgeClass": "darkblue"
+			},
+			{
+				"label": "Submitted",
+				"short": "SBMT",
+				"value": "Submitted",
+				"background": "#00868c",
+				"badgeClass": "darkgreen"
+			},
+			{
+				"label": "Interview",
+				"short": "INT",
+				"value": "Interview",
+				"background": "#CCD118",
+				"badgeClass": "birdflower-green"
+			},
+			{
+				"label": "Offered",
+				"short": "OFF",
+				"value": "Offered",
+				"background": "#f59e0b",
+				"badgeClass": "yellow"
+			},
+			{
+				"label": "Hired",
+				"short": "HRD",
+				"value": "Hired",
+				"background": "#1a936a",
+				"badgeClass": "lightgreen"
+			},
+			{
+				"label": "Rejected",
+				"short": "RJD",
+				"value": "Rejected",
+				"background": "#ed0707",
+				"badgeClass": "red"
+			},
+			{
+				"label": "Rejected by client",
+				"short": "RJC",
+				"value": "Rejected by client",
+				"background": "#ed0707",
+				"badgeClass": "red"
+			},
+			{
+				"label": "Archived",
+				"short": "ARC",
+				"value": "Archived",
+				"background": "#6b7280",
+				"badgeClass": "cadet"
+			}
+		]
+	},
+	"settings": {
+		"githubUrl": "https://raw.githubusercontent.com/akshayr-ts/PUBLIC-CONFIG-RagooExt/refs/heads/main/pipeline-config.json",
+		"fallbackEnabled": true,
+		"autoUpdate": true,
+		"cacheExpiry": 0
+	}
+}

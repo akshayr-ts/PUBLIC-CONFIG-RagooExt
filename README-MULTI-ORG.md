@@ -15,22 +15,22 @@ This extension now supports organization-specific pipeline configurations for mu
 
 - **Organization ID**: `20103859259`
 - **Domain**: `.eu` (recruit.zoho.eu)
-- **Configuration File**: `pipeline-config-org2.json`
-- **GitHub URL**: `https://raw.githubusercontent.com/akshayr-ts/PUBLIC-CONFIG-RagooExt/refs/heads/main/pipeline-config-org2.json`
+- **Configuration File**: `v2-pipeline-config-org2.json`
+- **GitHub URL**: `https://raw.githubusercontent.com/akshayr-ts/PUBLIC-CONFIG-RagooExt/refs/heads/main/v2-pipeline-config-org2.json`
 
 ### TeachNow Organization
 
 - **Organization ID**: `20094154729`
 - **Domain**: `.eu` (recruit.zoho.eu)
-- **Configuration File**: `pipeline-config-org3.json`
-- **GitHub URL**: `https://raw.githubusercontent.com/akshayr-ts/PUBLIC-CONFIG-RagooExt/refs/heads/main/pipeline-config-org3.json`
+- **Configuration File**: `v2-pipeline-config-org3.json`
+- **GitHub URL**: `https://raw.githubusercontent.com/akshayr-ts/PUBLIC-CONFIG-RagooExt/refs/heads/main/v2-pipeline-config-org3.json`
 
 ### Remote Choice Organization
 
 - **Organization ID**: `20086425055`
 - **Domain**: `.eu` (recruit.zoho.eu)
-- **Configuration File**: `pipeline-config-org4.json`
-- **GitHub URL**: `https://raw.githubusercontent.com/akshayr-ts/PUBLIC-CONFIG-RagooExt/refs/heads/main/pipeline-config-org4.json`
+- **Configuration File**: `v2-pipeline-config-org4.json`
+- **GitHub URL**: `https://raw.githubusercontent.com/akshayr-ts/PUBLIC-CONFIG-RagooExt/refs/heads/main/v2-pipeline-config-org4.json`
 
 ## Pipeline Stages for FlexSupport
 
@@ -177,9 +177,9 @@ The Remote Choice organization uses the following comprehensive pipeline stages:
 2. It then loads the appropriate pipeline configuration from GitHub:
 
    - Talent-Shore: Uses the original `pipeline-config.json`
-   - FlexSupport: Uses `pipeline-config-org2.json`
-   - TeachNow: Uses `pipeline-config-org3.json`
-   - Remote Choice: Uses `pipeline-config-org4.json`
+   - FlexSupport: Uses `v2-pipeline-config-org2.json`
+   - TeachNow: Uses `v2-pipeline-config-org3.json`
+   - Remote Choice: Uses `v2-pipeline-config-org4.json`
 
 3. Each organization has its own cache to prevent conflicts:
    - Talent-Shore: `ragoo_pipeline_config_org1`
@@ -194,9 +194,9 @@ update/
 ├── js/
 │   └── content.js (Updated with multi-org support)
 ├── pipeline-config.json (Talent-Shore - existing)
-├── pipeline-config-org2.json (FlexSupport - existing)
-├── pipeline-config-org3.json (TeachNow - existing)
-├── pipeline-config-org4.json (Remote Choice - new)
+├── v2-pipeline-config-org2.json (FlexSupport - existing)
+├── v2-pipeline-config-org3.json (TeachNow - existing)
+├── v2-pipeline-config-org4.json (Remote Choice - new)
 └── README-MULTI-ORG.md (This file)
 ```
 
@@ -207,9 +207,9 @@ To use this system:
 1. Upload all configuration files to your GitHub repository:
 
    - `pipeline-config.json` (Talent-Shore)
-   - `pipeline-config-org2.json` (FlexSupport)
-   - `pipeline-config-org3.json` (TeachNow)
-   - `pipeline-config-org4.json` (Remote Choice)
+   - `v2-pipeline-config-org2.json` (FlexSupport)
+   - `v2-pipeline-config-org3.json` (TeachNow)
+   - `v2-pipeline-config-org4.json` (Remote Choice)
 
 2. The extension will automatically fetch the correct configuration based on the current organization context.
 

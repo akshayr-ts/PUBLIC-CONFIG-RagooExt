@@ -5,9 +5,9 @@
 - **Organization Name**: Remote Choice (4th organization)
 - **Organization ID**: `20086425055`
 - **Domain**: `.eu` (recruit.zoho.eu)
-- **Configuration File**: `pipeline-config-org4.json`
+- **Configuration File**: `v2-pipeline-config-org4.json`
 - **Cache Key**: `ragoo_pipeline_config_org4`
-- **GitHub URL**: `https://raw.githubusercontent.com/akshayr-ts/PUBLIC-CONFIG-RagooExt/refs/heads/main/pipeline-config-org4.json`
+- **GitHub URL**: `https://raw.githubusercontent.com/akshayr-ts/PUBLIC-CONFIG-RagooExt/refs/heads/main/v2-pipeline-config-org4.json`
 
 ## Pipeline Configuration
 
@@ -58,7 +58,7 @@ Remote Choice uses a comprehensive 10-stage pipeline:
 
 ### New Files
 
-- `pipeline-config-org4.json` - Complete pipeline configuration
+- `v2-pipeline-config-org4.json` - Complete pipeline configuration
 
 ### Updated Files
 
@@ -93,8 +93,8 @@ To test Remote Choice functionality:
 
 ## GitHub Upload Needed
 
-Upload `pipeline-config-org4.json` to your GitHub repository at:
-`https://raw.githubusercontent.com/akshayr-ts/PUBLIC-CONFIG-RagooExt/refs/heads/main/pipeline-config-org4.json`
+Upload `v2-pipeline-config-org4.json` to your GitHub repository at:
+`https://raw.githubusercontent.com/akshayr-ts/PUBLIC-CONFIG-RagooExt/refs/heads/main/v2-pipeline-config-org4.json`
 
 ## Summary
 

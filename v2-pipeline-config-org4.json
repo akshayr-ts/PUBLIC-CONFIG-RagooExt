@@ -1,0 +1,124 @@
+{
+	"pipeline": {
+		"version": "1.0.0",
+		"lastUpdated": "2025-09-08",
+		"description": "Remote Choice Pipeline - Zoho Recruit Pipeline Configuration for Remote Choice (org20086425055) - EU Domain",
+		"fieldConfig": {
+			"notesField": "Conversation",
+			"description": "Field name used for storing candidate notes in Zoho Recruit API"
+		},
+		"stages": [
+			{
+				"label": "Applied",
+				"short": "APL",
+				"value": "Applied",
+				"background": "#a54444",
+				"badgeClass": "apple-blossom"
+			},
+			{
+				"label": "AI Applications",
+				"short": "AIA",
+				"value": "AI Applications",
+				"background": "#a54444",
+				"badgeClass": "apple-blossom"
+			},
+			{
+				"label": "AI Database",
+				"short": "AID",
+				"value": "AI Database",
+				"background": "#a54444",
+				"badgeClass": "apple-blossom"
+			},
+			{
+				"label": "AI LinkedIn",
+				"short": "AIL",
+				"value": "AI LinkedIn",
+				"background": "#a54444",
+				"badgeClass": "apple-blossom"
+			},
+			{
+				"label": "Shortlisted",
+				"short": "SHL",
+				"value": "Shortlisted",
+				"background": "#d0a72b",
+				"badgeClass": "sheen-gold"
+			},
+			{
+				"label": "Call Not Answered",
+				"short": "CNA",
+				"value": "Call Not Answered",
+				"background": "#d0a72b",
+				"badgeClass": "sheen-gold"
+			},
+			{
+				"label": "Booked",
+				"short": "BKD",
+				"value": "Booked",
+				"background": "#CCD118",
+				"badgeClass": "birdflower-green"
+			},
+			{
+				"label": "Submitted to client",
+				"short": "STC",
+				"value": "Submitted to client",
+				"background": "#00868c",
+				"badgeClass": "darkgreen"
+			},
+			{
+				"label": "Chase Video",
+				"short": "CHV",
+				"value": "Chase Video",
+				"background": "#ff69b4",
+				"badgeClass": "pink"
+			},
+			{
+				"label": "Interview-Scheduled",
+				"short": "INT",
+				"value": "Interview-Scheduled",
+				"background": "#0891b2",
+				"badgeClass": "topaz-blue"
+			},
+			{
+				"label": "Offered",
+				"short": "OFF",
+				"value": "Offered",
+				"background": "#f59e0b",
+				"badgeClass": "yellow"
+			},
+			{
+				"label": "Hired",
+				"short": "HIR",
+				"value": "Hired",
+				"background": "#1a936a",
+				"badgeClass": "lightgreen"
+			},
+			{
+				"label": "Rejected",
+				"short": "REJ",
+				"value": "Rejected",
+				"background": "#ed0707",
+				"badgeClass": "red"
+			},
+			{
+				"label": "Rejected by client",
+				"short": "RBC",
+				"value": "Rejected by client",
+				"background": "#ed0707",
+				"badgeClass": "red"
+			},
+			{
+				"label": "Archived",
+				"short": "ARC",
+				"value": "Archived",
+				"background": "#6b7280",
+				"badgeClass": "cadet"
+			}
+		]
+	},
+	"settings": {
+		"githubUrl": "https://raw.githubusercontent.com/akshayr-ts/PUBLIC-CONFIG-RagooExt/refs/heads/main/v2-pipeline-config-org4.json",
+		"fallbackEnabled": true,
+		"autoUpdate": true,
+		"cacheExpiry": 0
+	}
+}
