@@ -1,7 +1,7 @@
 {
 	"pipeline": {
-		"version": "1.0.0",
-		"lastUpdated": "2025-09-03",
+		"version": "1.0.1",
+		"lastUpdated": "2025-10-24",
 		"description": "FlexSupport Pipeline - Zoho Recruit Pipeline Configuration for FlexSupport (org20103859259) - EU Domain",
 		"stages": [
 			{
@@ -19,23 +19,9 @@
 				"badgeClass": "darkblue"
 			},
 			{
-				"label": "Proactively Sourced",
-				"short": "PSO",
-				"value": "Proactively Sourced",
-				"background": "#1e3a8a",
-				"badgeClass": "darkblue"
-			},
-			{
-				"label": "Approved",
-				"short": "APV",
-				"value": "Approved",
-				"background": "#0891b2",
-				"badgeClass": "topaz-blue"
-			},
-			{
-				"label": "Call not Answered",
-				"short": "CNA",
-				"value": "Call not Answered",
+				"label": "Shortlisted",
+				"short": "SHL",
+				"value": "Shortlisted",
 				"background": "#0891b2",
 				"badgeClass": "topaz-blue"
 			},
@@ -57,6 +43,13 @@
 				"label": "Submitted to client",
 				"short": "STC",
 				"value": "Submitted to client",
+				"background": "#7c3aed",
+				"badgeClass": "violet"
+			},
+			{
+				"label": "Awaiting Approval",
+				"short": "AWA",
+				"value": "Awaiting Approval",
 				"background": "#7c3aed",
 				"badgeClass": "violet"
 			},
