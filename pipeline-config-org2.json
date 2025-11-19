@@ -40,16 +40,16 @@
 				"badgeClass": "cavernpink"
 			},
 			{
-				"label": "Submitted to client",
-				"short": "STC",
-				"value": "Submitted to client",
+				"label": "Awaiting Approval",
+				"short": "AWA",
+				"value": "Awaiting Approval",
 				"background": "#7c3aed",
 				"badgeClass": "violet"
 			},
 			{
-				"label": "Awaiting Approval",
-				"short": "AWA",
-				"value": "Awaiting Approval",
+				"label": "Submitted to client",
+				"short": "STC",
+				"value": "Submitted to client",
 				"background": "#7c3aed",
 				"badgeClass": "violet"
 			},
@@ -111,3 +111,4 @@
 		"cacheExpiry": 0
 	}
 }
+
