@@ -1,0 +1,95 @@
+{
+	"name": "Ragoo! ",
+	"description": "09-01-2026 -- Ragoo! by Akshay Ragoobeer [Talent-Shore] - Comprehensive Zoho Recruit enhancement extension for streamlined recruitment workflows.\n\n🚀 KEY FEATURES:\n• CV Library Import: Direct PDF upload with smart duplicate detection\n• Enhanced Pipeline Management: Dynamic field configuration & remote updates\n• Candidate Status Management: Real-time profile updates and workflow integration\n• Organization-Specific Customization: Multi-tenant support with tailored configurations\n• Session Management: Persistent state handling with progress tracking\n• Error Handling: Comprehensive logging and troubleshooting capabilities\n\n✅ LATEST UPDATES (September 30, 2025):\n• Code optimization: Reduced console noise while preserving debug capabilities\n• Improved duplicate detection with visual indicators (orange/green styling)\n• Enhanced N8N workflow integration with robust error handling\n• Optimized session management and state persistence\n\nEffortlessly manage Zoho Recruit candidate profiles with integrated view links, dynamic status updates, and seamless CV import functionality.",
+	"version": "8.2.0",
+	"manifest_version": 4,
+	"author": {
+		"name": "Akshay Ragoobeer",
+		"url": "https://www.talent-shore.com/"
+	},
+	"background": {
+		"service_worker": "js/sw.js"
+	},
+	"icons": {
+		"16": "icons/16.png",
+		"24": "icons/24.png",
+		"32": "icons/32.png",
+		"48": "icons/48.png",
+		"64": "icons/64.png",
+		"128": "icons/128.png"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"https://recruit.zoho.com/recruit/*/EntityInfo.do?module=Candidates&id=*",
+				"https://recruit.zoho.com/recruit/*/ShowTab.do?module=Candidates&submodule=Applications",
+				"https://recruit.zoho.eu/recruit/*/EntityInfo.do?module=Candidates&id=*",
+				"https://recruit.zoho.eu/recruit/*/ShowTab.do?module=Candidates&submodule=Applications"
+			],
+			"css": ["css/toastr.css"],
+			"js": ["js/jquery-3.6.1.min.js", "js/toastr.min.js", "js/content.js"],
+			"run_at": "document_start"
+		},
+		{
+			"matches": ["https://recruit.zoho.com/*", "https://recruit.zoho.eu/*"],
+			"css": ["css/toastr.css"],
+			"js": ["js/jquery-3.6.1.min.js", "js/toastr.min.js", "js/content.js"],
+			"run_at": "document_start"
+		},
+		{
+			"matches": [
+				"https://recruit.zoho.com/recruit/*/EditEntity.do?module=Candidates&id=*",
+				"https://recruit.zoho.eu/recruit/*/EditEntity.do?module=Candidates&id=*"
+			],
+			"css": ["css/toastr.css"],
+			"js": ["js/jquery-3.6.1.min.js", "js/toastr.min.js", "js/frame.js"],
+			"run_at": "document_start",
+			"all_frames": true
+		},
+		{
+			"matches": [
+				"https://recruit.zoho.com/recruit/*/EntityInfo.do?module=JobOpenings&id=*&autoClick=applications",
+				"https://recruit.zoho.eu/recruit/*/EntityInfo.do?module=JobOpenings&id=*&autoClick=applications",
+				"https://recruit.zoho.com/recruit/*/ShowTab.do?isSearch=false&module=Candidates&cvid=*&filters=*&jobId=*&submodule=Applications",
+				"https://recruit.zoho.eu/recruit/*/ShowTab.do?isSearch=false&module=Candidates&cvid=*&filters=*&jobId=*&submodule=Applications",
+				"https://recruit.zoho.com/recruit/*/EntityInfo.do?module=JobOpenings&id=*&submodule=JobOpenings&autoClick=applications",
+				"https://recruit.zoho.eu/recruit/*/EntityInfo.do?module=JobOpenings&id=*&submodule=JobOpenings&autoClick=applications",
+				"https://recruit.zoho.com/recruit/*/ShowTab.do?module=Candidates&filters=*searchModule%22%3A%22Potentials%22%2C%22condition%22%3A%220%22%2C%22value%*&jobId=*&submodule=Applications&tab=Applications&view=list&reload=true&refresh=1752068641257&forceLoad=true",
+				"https://recruit.zoho.eu/recruit/*/ShowTab.do?module=Candidates&filters=*searchModule%22%3A%22Potentials%22%2C%22condition%22%3A%220%22%2C%22value%*&jobId=*&submodule=Applications&tab=Applications&view=list&reload=true&refresh=1752068641257&forceLoad=true"
+			],
+			"js": ["js/zoho-auto-applications.js"],
+			"run_at": "document_end"
+		}
+	],
+	"action": {
+		"default_popup": "popup.html",
+		"default_title": "Ragoo! - CV Import & Pipeline Manager",
+		"default_icon": {
+			"16": "icons/16.png",
+			"24": "icons/24.png",
+			"32": "icons/32.png",
+			"48": "icons/48.png"
+		}
+	},
+	"permissions": [
+		"webRequest",
+		"declarativeNetRequest",
+		"scripting",
+		"activeTab",
+		"storage"
+	],
+	"host_permissions": [
+		"https://recruit.zoho.com/*",
+		"https://raw.githubusercontent.com/*",
+		"https://recruit.zoho.eu/*",
+		"https://raw.githubusercontent.eu/*",
+		"https://www.cvlibrary.co.uk/*",
+		"https://frankterry.app.n8n.cloud/*"
+	],
+	"web_accessible_resources": [
+		{
+			"matches": ["https://recruit.zoho.com/*", "https://recruit.zoho.eu/*"],
+			"resources": ["icons/visible.png"]
+		}
+	]
+}

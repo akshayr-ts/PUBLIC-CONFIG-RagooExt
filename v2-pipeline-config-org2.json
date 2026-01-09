@@ -1,7 +1,7 @@
 {
 	"pipeline": {
-		"version": "1.0.1",
-		"lastUpdated": "2025-10-24",
+		"version": "1.0.2",
+		"lastUpdated": "2026-01-09",
 		"description": "FlexSupport Pipeline - Zoho Recruit Pipeline Configuration for FlexSupport (org20103859259) - EU Domain",
 		"fieldConfig": {
 			"notesField": "Screening_Info",
@@ -30,9 +30,30 @@
 				"badgeClass": "topaz-blue"
 			},
 			{
+				"label": "AI Interview Requested",
+				"short": "AIR",
+				"value": "AI Interview Requested",
+				"background": "#0891b2",
+				"badgeClass": "topaz-blue"
+			},
+			{
+				"label": "Added to Veton AI",
+				"short": "VET",
+				"value": "Added to Veton AI",
+				"background": "#0891b2",
+				"badgeClass": "topaz-blue"
+			},
+			{
 				"label": "Booked",
 				"short": "BKD",
 				"value": "Booked",
+				"background": "#ec4899",
+				"badgeClass": "pink"
+			},
+			{
+				"label": "AI Interview Completed",
+				"short": "AIC",
+				"value": "AI Interview Completed",
 				"background": "#ec4899",
 				"badgeClass": "pink"
 			},
@@ -115,4 +136,3 @@
 		"cacheExpiry": 0
 	}
 }
-
