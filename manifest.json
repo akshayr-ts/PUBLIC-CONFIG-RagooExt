@@ -2,7 +2,7 @@
 	"name": "Ragoo! ",
 	"description": "09-01-2026 -- Ragoo! by Akshay Ragoobeer [Talent-Shore] - Comprehensive Zoho Recruit enhancement extension for streamlined recruitment workflows.\n\n🚀 KEY FEATURES:\n• CV Library Import: Direct PDF upload with smart duplicate detection\n• Enhanced Pipeline Management: Dynamic field configuration & remote updates\n• Candidate Status Management: Real-time profile updates and workflow integration\n• Organization-Specific Customization: Multi-tenant support with tailored configurations\n• Session Management: Persistent state handling with progress tracking\n• Error Handling: Comprehensive logging and troubleshooting capabilities\n\n✅ LATEST UPDATES (September 30, 2025):\n• Code optimization: Reduced console noise while preserving debug capabilities\n• Improved duplicate detection with visual indicators (orange/green styling)\n• Enhanced N8N workflow integration with robust error handling\n• Optimized session management and state persistence\n\nEffortlessly manage Zoho Recruit candidate profiles with integrated view links, dynamic status updates, and seamless CV import functionality.",
 	"version": "8.2.0",
-	"manifest_version": 4,
+	"manifest_version": 3,
 	"author": {
 		"name": "Akshay Ragoobeer",
 		"url": "https://www.talent-shore.com/"
