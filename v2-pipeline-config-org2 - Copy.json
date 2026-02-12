@@ -1,27 +1,13 @@
 {
 	"pipeline": {
-		"version": "1.0.3",
-		"lastUpdated": "2026-02-10",
+		"version": "1.0.0",
+		"lastUpdated": "2025-09-08",
 		"description": "FlexSupport Pipeline - Zoho Recruit Pipeline Configuration for FlexSupport (org20103859259) - EU Domain",
 		"fieldConfig": {
 			"notesField": "Screening_Info",
 			"description": "Field name used for storing candidate notes in Zoho Recruit API"
 		},
 		"stages": [
-			{
-				"label": "Pro-So",
-				"short": "PSO",
-				"value": "Pro-So",
-				"background": "#CCD118",
-				"badgeClass": "birdflower-green"
-			},
-			{
-				"label": "Pro-So Enriched",
-				"short": "PSE",
-				"value": "Pro-So Enriched",
-				"background": "#CCD118",
-				"badgeClass": "birdflower-green"
-			},
 			{
 				"label": "Applied",
 				"short": "APL",
@@ -37,32 +23,46 @@
 				"badgeClass": "darkblue"
 			},
 			{
-				"label": "Shortlisted",
-				"short": "SHL",
-				"value": "Shortlisted",
+				"label": "Proactively Sourced",
+				"short": "PSO",
+				"value": "Proactively Sourced",
+				"background": "#1e3a8a",
+				"badgeClass": "darkblue"
+			},
+			{
+				"label": "Approved",
+				"short": "APV",
+				"value": "Approved",
 				"background": "#0891b2",
 				"badgeClass": "topaz-blue"
 			},
 			{
-				"label": "Human Interview Completed",
-				"short": "HIC",
-				"value": "Human Interview Completed",
-				"background": "#7c3aed",
-				"badgeClass": "violet"
+				"label": "Call not Answered",
+				"short": "CNA",
+				"value": "Call not Answered",
+				"background": "#0891b2",
+				"badgeClass": "topaz-blue"
 			},
 			{
-				"label": "AI Interview Completed",
-				"short": "AIC",
-				"value": "AI Interview Completed",
-				"background": "#7c3aed",
-				"badgeClass": "violet"
+				"label": "Booked",
+				"short": "BKD",
+				"value": "Booked",
+				"background": "#ec4899",
+				"badgeClass": "pink"
 			},
 			{
-				"label": "Approved/Chase CD",
-				"short": "ACD",
-				"value": "Approved/Chase CD",
-				"background": "#d0a72b",
-				"badgeClass": "sheen-gold"
+				"label": "Chase Video",
+				"short": "CHV",
+				"value": "Chase Video",
+				"background": "#c084fc",
+				"badgeClass": "cavernpink"
+			},
+			{
+				"label": "Submitted to client",
+				"short": "STC",
+				"value": "Submitted to client",
+				"background": "#7c3aed",
+				"badgeClass": "violet"
 			},
 			{
 				"label": "Interview-Scheduled",
@@ -89,13 +89,6 @@
 				"label": "Rejected",
 				"short": "REJ",
 				"value": "Rejected",
-				"background": "#ef4444",
-				"badgeClass": "red"
-			},
-			{
-				"label": "Pro-So Rejected",
-				"short": "PSR",
-				"value": "Pro-So Rejected",
 				"background": "#ef4444",
 				"badgeClass": "red"
 			},

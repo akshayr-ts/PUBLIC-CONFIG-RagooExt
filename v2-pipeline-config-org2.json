@@ -1,13 +1,27 @@
 {
 	"pipeline": {
-		"version": "1.0.2",
-		"lastUpdated": "2026-01-09",
+		"version": "1.0.3",
+		"lastUpdated": "2026-02-10",
 		"description": "FlexSupport Pipeline - Zoho Recruit Pipeline Configuration for FlexSupport (org20103859259) - EU Domain",
 		"fieldConfig": {
 			"notesField": "Screening_Info",
 			"description": "Field name used for storing candidate notes in Zoho Recruit API"
 		},
 		"stages": [
+			{
+				"label": "Pro-So",
+				"short": "PSO",
+				"value": "Pro-So",
+				"background": "#CCD118",
+				"badgeClass": "birdflower-green"
+			},
+			{
+				"label": "Pro-So Enriched",
+				"short": "PSE",
+				"value": "Pro-So Enriched",
+				"background": "#CCD118",
+				"badgeClass": "birdflower-green"
+			},
 			{
 				"label": "Applied",
 				"short": "APL",
@@ -30,53 +44,25 @@
 				"badgeClass": "topaz-blue"
 			},
 			{
-				"label": "AI Interview Requested",
-				"short": "AIR",
-				"value": "AI Interview Requested",
-				"background": "#0891b2",
-				"badgeClass": "topaz-blue"
-			},
-			{
-				"label": "Added to Veton AI",
-				"short": "VET",
-				"value": "Added to Veton AI",
-				"background": "#0891b2",
-				"badgeClass": "topaz-blue"
-			},
-			{
-				"label": "Booked",
-				"short": "BKD",
-				"value": "Booked",
-				"background": "#ec4899",
-				"badgeClass": "pink"
+				"label": "Human Interview Completed",
+				"short": "HIC",
+				"value": "Human Interview Completed",
+				"background": "#7c3aed",
+				"badgeClass": "violet"
 			},
 			{
 				"label": "AI Interview Completed",
 				"short": "AIC",
 				"value": "AI Interview Completed",
-				"background": "#ec4899",
-				"badgeClass": "pink"
-			},
-			{
-				"label": "Chase Video",
-				"short": "CHV",
-				"value": "Chase Video",
-				"background": "#c084fc",
-				"badgeClass": "cavernpink"
-			},
-			{
-				"label": "Awaiting Approval",
-				"short": "AWA",
-				"value": "Awaiting Approval",
 				"background": "#7c3aed",
 				"badgeClass": "violet"
 			},
 			{
-				"label": "Submitted to client",
-				"short": "STC",
-				"value": "Submitted to client",
-				"background": "#7c3aed",
-				"badgeClass": "violet"
+				"label": "Approved/Chase CD",
+				"short": "ACD",
+				"value": "Approved/Chase CD",
+				"background": "#d0a72b",
+				"badgeClass": "sheen-gold"
 			},
 			{
 				"label": "Interview-Scheduled",
@@ -103,6 +89,13 @@
 				"label": "Rejected",
 				"short": "REJ",
 				"value": "Rejected",
+				"background": "#ef4444",
+				"badgeClass": "red"
+			},
+			{
+				"label": "Pro-So Rejected",
+				"short": "PSR",
+				"value": "Pro-So Rejected",
 				"background": "#ef4444",
 				"badgeClass": "red"
 			},
