@@ -1,8 +1,8 @@
 {
 	"pipeline": {
-		"version": "1.0.3",
-		"lastUpdated": "2026-02-10",
-		"description": "FlexSupport Pipeline - Zoho Recruit Pipeline Configuration for FlexSupport (org20103859259) - EU Domain",
+		"version": "1.0.4",
+		"lastUpdated": "2026-02-12",
+		"description": "FlexySupport Pipeline - Zoho Recruit Pipeline Configuration for FlexySupport (org20103859259) - EU Domain",
 		"fieldConfig": {
 			"notesField": "Screening_Info",
 			"description": "Field name used for storing candidate notes in Zoho Recruit API"
@@ -51,9 +51,9 @@
 				"badgeClass": "violet"
 			},
 			{
-				"label": "AI Interview Completed",
+				"label": "AI Interview Done/Hubspot",
 				"short": "AIC",
-				"value": "AI Interview Completed",
+				"value": "AI Interview Done/Hubspot",
 				"background": "#7c3aed",
 				"badgeClass": "violet"
 			},
@@ -65,9 +65,16 @@
 				"badgeClass": "sheen-gold"
 			},
 			{
-				"label": "Interview-Scheduled",
-				"short": "INT",
-				"value": "Interview-Scheduled",
+				"label": "CD Back",
+				"short": "CDB",
+				"value": "CD Back",
+				"background": "#d97706",
+				"badgeClass": "chocolate"
+			},
+			{
+				"label": "Compliance Complete",
+				"short": "CMP",
+				"value": "Compliance Complete",
 				"background": "#d97706",
 				"badgeClass": "chocolate"
 			},
