@@ -1,13 +1,20 @@
 {
 	"pipeline": {
-		"version": "1.0.4",
-		"lastUpdated": "2026-02-12",
+		"version": "1.0.5",
+		"lastUpdated": "2026-03-12",
 		"description": "FlexySupport Pipeline - Zoho Recruit Pipeline Configuration for FlexySupport (org20103859259) - EU Domain",
 		"fieldConfig": {
 			"notesField": "Screening_Info",
 			"description": "Field name used for storing candidate notes in Zoho Recruit API"
 		},
 		"stages": [
+			{
+				"label": "Rejected",
+				"short": "REJ",
+				"value": "Rejected",
+				"background": "#ef4444",
+				"badgeClass": "red"
+			},
 			{
 				"label": "Pro-So",
 				"short": "PSO",
@@ -91,34 +98,6 @@
 				"value": "Hired",
 				"background": "#22c55e",
 				"badgeClass": "lightgreen"
-			},
-			{
-				"label": "Rejected",
-				"short": "REJ",
-				"value": "Rejected",
-				"background": "#ef4444",
-				"badgeClass": "red"
-			},
-			{
-				"label": "Pro-So Rejected",
-				"short": "PSR",
-				"value": "Pro-So Rejected",
-				"background": "#ef4444",
-				"badgeClass": "red"
-			},
-			{
-				"label": "No Contact",
-				"short": "NCT",
-				"value": "No Contact",
-				"background": "#ef4444",
-				"badgeClass": "red"
-			},
-			{
-				"label": "Rejected by client",
-				"short": "RBC",
-				"value": "Rejected by client",
-				"background": "#ef4444",
-				"badgeClass": "red"
 			},
 			{
 				"label": "Archived",
